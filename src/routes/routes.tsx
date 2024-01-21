@@ -16,6 +16,10 @@ const router = createBrowserRouter([
         path: "/:courseId",
         element: <CoursePage />,
       },
+      {
+        path: "/dashboard",
+        element: <CoursePage />,
+      },
     ],
   },
 ]);
